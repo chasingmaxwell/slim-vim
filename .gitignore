@@ -1,0 +1,4 @@
+.netrwhist
+.vimrc-private
+bundle/*
+!.gitkeep

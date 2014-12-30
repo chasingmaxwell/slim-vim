@@ -1,0 +1,9 @@
+#!/bin/bash
+
+git clone git@github.com:Shougo/neobundle.vim.git ~/.slim-vim/bundle/neobundle.vim
+
+git -C ~/.slim-vim/bundle/neobundle.vim checkout e4e6766
+
+echo
+echo 'NeoBundle successfully installed. Run slim-vim to install bundles.'
+echo
