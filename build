@@ -1,5 +1,14 @@
 #!/bin/bash
 
+# Immediately exit on any error.
+set -e
+
+echo -e '\nPATH=$PATH:$HOME/.slim-vim/bin' >> ~/.bashrc
+
+echo
+echo '~/.slim-vim/bin successfully added to PATH.'
+echo
+
 git clone git@github.com:Shougo/neobundle.vim.git ~/.slim-vim/bundle/neobundle.vim
 
 git -C ~/.slim-vim/bundle/neobundle.vim checkout e4e6766

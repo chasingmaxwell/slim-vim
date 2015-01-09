@@ -1,5 +1,5 @@
 #!/bin/bash
 
 # Open vim with slimmed-down config
-vim -u ~/.slim-vimrc "$@"
+vim -u ~/.slim-vim/.vimrc "$@"
 
